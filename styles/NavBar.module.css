@@ -20,6 +20,8 @@
 .icon {
   font-size: 1.8rem;
   z-index: 4;
+  display: flex;
+  cursor: pointer;
 }
 
 .menu {
@@ -47,4 +49,14 @@
   margin-bottom: 0.7rem;
   font-weight: 300;
   cursor: pointer;
+}
+
+@media only screen and (min-width: 800px) {
+  .icon {
+    display: none;
+  }
+
+  .menu {
+    display: none;
+  }
 }
