@@ -1,0 +1,37 @@
+.info,
+.li,
+.li2,
+.li3,
+.li4 {
+  width: 100%;
+  font-size: 1rem;
+  margin-bottom: 0.6rem;
+  position: relative;
+  font-weight: 400;
+}
+
+.li {
+  padding-left: 2rem;
+  font-weight: 300;
+}
+
+.li2 {
+  padding-left: 4rem;
+  font-weight: 300;
+  font-style: italic;
+  list-style-type: circle;
+}
+.li3 {
+  padding-left: 6rem;
+  font-weight: 300;
+  font-style: italic;
+  list-style-type: square;
+  font-size: 1rem;
+}
+.li4 {
+  padding-left: 8rem;
+  font-weight: 300;
+  font-style: italic;
+  list-style-type: circle;
+  font-size: 1rem;
+}

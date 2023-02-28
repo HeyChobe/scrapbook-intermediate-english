@@ -1,0 +1,52 @@
+.container {
+  background-color: var(--red);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 15px;
+  margin: 2rem 0;
+}
+
+.top {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title,
+.icon-down,
+.icon-up {
+  color: var(--black);
+  font-weight: 400;
+  font-size: 1.1rem;
+}
+
+.down {
+  color: var(--black);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+
+.example {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 1rem;
+  font-weight: 400;
+  font-size: 1.1rem;
+  font-style: italic;
+}
+
+.cite {
+  width: 100%;
+  text-align: right;
+  font-size: 0.9rem;
+  font-weight: 400;
+}

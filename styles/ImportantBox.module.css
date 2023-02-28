@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--green);
+  max-width: 900px;
+  border-radius: 15px;
+  padding: 1.5rem 2rem;
+}
+
+.info {
+  color: var(--black);
+  font-weight: 400;
+  font-size: 1.1rem;
+}
